@@ -63,7 +63,6 @@ namespace CircleStack
                 var index = TotalApartmentList.FindIndex(a => a.AptNo == apt_no);
                 TotalApartmentList[index].AddMembers(name, dob, rel, occupation);
                 this.UpdateState();
-
             }
             else
             {
@@ -118,15 +117,16 @@ namespace CircleStack
 
         public void GetReport()
         {
+
             Console.WriteLine("\nFlat Report");
-            Console.WriteLine($"Number of unoccupied flats : {this.Details.TotalVehicleList.Count}");
-            Console.WriteLine($"Total occupants in the flat : {this.Details.TotalMembersList.Count}");
-            Console.WriteLine($"Total number of vehicles : {this.Details.TotalVehicleList.Count}");
-            Console.WriteLine($"Total vehicles inside the apartment : {this.Details.TotalVehicleList.Where(p => p.IsIn == true).ToList().Count}");
-            Console.WriteLine($"Total apartments added : {this.TotalApartmentList.Count}");
+            Console.WriteLine($"Number of unoccupied flats : {Details.Unoccupied}");
+            Console.WriteLine($"Total occupants in the flat : {Details.TotalMembersList.Count}");
+            Console.WriteLine($"Total number of vehicles : {Details.TotalVehicleList.Count}");
+            Console.WriteLine($"Total vehicles inside the apartment : {Details.TotalVehicleList.Where(p => p.IsIn == true).ToList().Count}");
+            Console.WriteLine($"Total apartments added : {TotalApartmentList.Count}");
         }
 
-        void UpdateState()
+        public void UpdateState()
         {
             List<string> State = new List<string>();
             foreach (Apartment apartment in TotalApartmentList)
@@ -148,7 +148,7 @@ namespace CircleStack
                     }
                 }
             }
-            File.AppendAllLines("state.txt", State);
+            File.WriteAllLines("state.txt", State);
 
         }
 

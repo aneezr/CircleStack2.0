@@ -43,24 +43,27 @@ namespace CircleStack
         {
             var fm = new FamilyMember(name, dob, rel, occupation);
             this.Members.Add(fm);
+            this.Details.TotalMembersList.Add(fm);
         }
 
         public void AddVehicle(string lp, string type, string model, bool isin)
         {
             var v = new Vehicle(lp, type, model, isin);
             this.Vehicles.Add(v);
+            this.Details.TotalVehicleList.Add(v);
         }
 
         public void AddRegularVisiter(string name, int id, string reason)
         {
             var rv = new RegularVisiter(name, id, reason);
             this.RegularVisiters.Add(rv);
+            this.Details.TotalVisitersList.Add(rv);
         }
 
         public void RemoveVisitor(string name, string apt_no)
         {
             RegularVisiters.RemoveAll(x => x.Name == name);
-            Details.TotalVisitersList.RemoveAll(x => x.Name == name);
+            this.Details.TotalVisitersList.RemoveAll(x => x.Name == name);
         }
     }
 }
