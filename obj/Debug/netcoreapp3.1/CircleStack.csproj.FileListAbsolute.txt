@@ -1,0 +1,14 @@
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.exe
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.deps.json
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.runtimeconfig.json
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.runtimeconfig.dev.json
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.dll
+D:\Assessments\CircleStack\CircleStack\bin\Debug\netcoreapp3.1\CircleStack.pdb
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.csproj.AssemblyReference.cache
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.AssemblyInfoInputs.cache
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.AssemblyInfo.cs
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.csproj.CoreCompileInputs.cache
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.dll
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.pdb
+D:\Assessments\CircleStack\CircleStack\obj\Debug\netcoreapp3.1\CircleStack.genruntimeconfig.cache
