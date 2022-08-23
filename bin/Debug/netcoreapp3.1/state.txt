@@ -1,6 +1,0 @@
-Current State
-Number of unoccupied flats : 18
-Total occupants in the flat : 6
-Total number of vehicles : 4
-Total vehicles inside the apartment : 1
-Total apartments added : 20
