@@ -177,7 +177,7 @@ namespace CircleStack
 
                             break;
                         case "8":
-                            Condoor.UpdateState();
+                            //Condoor.UpdateState();
                             break;
                         case "9":
                             stop = false;
